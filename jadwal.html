@@ -1,0 +1,322 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web X PPLG 1</title>
+    <style>
+        body{
+    background-color: hsl(283, 100%, 2%);
+    width: 100%;
+    margin: 0;
+}
+.header {
+    background-color: black;
+    border-bottom: 3px solid #fff;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 30px #ff00cc, 0 0 40px #ff00cc, 0 0 50px #ff00cc, 0 0 60px #ff00cc, 0 0 70px #ff00cc;
+    position: fixed;
+    top: 0px;
+    z-index: 2;
+    text-align: center;
+    width: 100%;
+    height: 70px;
+}
+.spanX, .span1 {
+    text-shadow: 0 0 10px #0030fb, 0 0 20px #0030fb, 0 0 30px #0030fb, 0 0 40px #0030fb, 0 0 50px #0030fb, 0 0 60px #0030fb, 0 0 70px #0030fb;
+}
+h3.halaman {
+    margin-left: 10px;
+    color: #fff;
+    text-shadow: 0 0 10px #0030fb, 0 0 20px #0030fb, 0 0 30px #0030fb, 0 0 40px #0030fb, 0 0 50px #0030fb, 0 0 60px #0030fb, 0 0 70px #0030fb;
+}
+.body {
+    margin-top: 70px;
+}
+ul{
+    width: 100%;
+    background-color: aliceblue;
+    list-style-type: none;
+    padding: 20px;
+    overflow: hidden;
+    text-shadow: 0 0 10px #ff00cc, 0 0 20px #ff00cc, 0 0 30px #ff00cc, 0 0 40px #ff00cc, 0 0 50px #ff00cc, 0 0 60px #ff00cc, 0 0 70px #ff00cc;
+}
+li{
+    float: left;
+}
+li a{
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+li a:hover{
+    background-color: #fb00fb;
+    color: #fff;
+    border-radius: 30%;
+}
+li a:active{
+    background-color: #0030fb;
+    color: #fff;
+    text-shadow: 0 0 10px #0030fb, 0 0 20px #0030fb, 0 0 30px #0030fb, 0 0 40px #0030fb, 0 0 50px #0030fb, 0 0 60px #0030fb, 0 0 70px #0030fb;
+}
+#hr1{
+    border: 5px dashed aliceblue;
+}
+table{
+    display: flex;
+    justify-content: center;           
+    background-color: aliceblue;
+}
+#hari1{
+    background-color: aquamarine;
+}
+#hari2{
+    background-color: aquamarine;
+}
+    </style>
+</head>
+<body>
+<div class="header">
+    <h2>Web <span class="spanX">X</span> PPLG <span class="span1">1</span></h2>
+</div>
+
+<div class="body">
+    <hr>
+    <h3 class="halaman">Halaman Web : </h3>
+
+    <ul>
+        <li><a href="index.html">Struktur Kelas</a></li>
+        <li><a href="jadwal.html">Jadwal Kelas</a></li>
+    </ul>
+
+    <hr id="hr1">
+    <table border="1">
+    <tr id="hari1">
+            <th>Waktu</th>
+            <th>Jam</th>
+            <th>Senin</th>
+            <th>Selasa</th>
+        </tr>
+        <tr>
+            <th>07.00-07.45</th>
+            <td>1</td>
+            <th style="background-color: pink;"><i>Upacara</i></th>
+            <td>B.Indo</td>
+        </tr>
+        <tr>
+            <th>07.45-08.30</th>
+            <td>2</td>
+            <td>PJOK</td>
+            <td>B.Indo</td>
+        </tr>
+        <tr>
+            <th>08.30-09.15</th>
+            <td>3</td>
+            <td>PJOK</td>
+            <td>B.Inggris</td>
+        </tr>
+        <tr>
+            <th>09.15-09.30</th>
+            <td></td>
+            <th colspan="2" style="background-color: yellow;">Istirahat</th>
+        </tr>
+        <tr>
+            <th>09.30-10.15</th>
+            <td>4</td>
+            <td>PJOK</td>
+            <td>B.Inggris</td>
+        </tr>
+        <tr>
+            <th>10.15-11.00</th>
+            <td>5</td>
+            <td>Produktif</td>
+            <td>MTK</td>
+        </tr>
+        <tr>
+            <th>11.00-11.45</th>
+            <td>6</td>
+            <td>Produktif</td>
+            <td>MTK</td>
+        </tr>
+        <tr>
+            <th>11.45-12.15</th>
+            <td></td>
+            <th colspan="2" style="background-color: yellow;">Istirahat</th>
+        </tr>
+        <tr>
+            <th>12.15-13.00</th>
+            <td>7</td>
+            <td>Produktif</td>
+            <td>IPAS</td>
+        </tr>
+        <tr>
+            <th>13.00-13.45</th>
+            <td>8</td>
+            <td>Produktif</td>
+            <td>IPAS</td>
+        </tr>
+        <tr>
+            <th>13.45-14.30</th>
+            <td>9</td>
+            <td>Sejarah</td>
+            <td>IPAS</td>
+        </tr>
+        <tr>
+            <th>14.30-15.15</th>
+            <td>10</td>
+            <td>Sejarah</td>
+            <td>IPAS</td>
+        </tr>
+    </table>
+    <hr id="hr1">
+    <table border="1">
+        <tr id="hari2">
+            <th>Waktu</th>
+            <th>Jam</th>
+            <th>Rabu</th>
+            <th>Kamis</th>
+        </tr>
+        <tr>
+            <th>07.00-07.40</th>
+            <td>1</td>
+            <td>MTK</td>
+            <td>BK</td>
+        </tr>
+        <tr>
+            <th>07.40-08.20</th>
+            <td>2</td>
+            <td>MTK</td>
+            <td>Infor</td>
+        </tr>
+        <tr>
+            <th>08.20-09.00</th>
+            <td>3</td>
+            <td>Infor</td>
+            <td>Infor</td>
+        </tr>
+        <tr>
+            <th>09.00-09.15</th>
+            <td></td>
+            <th colspan="2" style="background-color: yellow;">Istirahat</th>
+        </tr>
+        <tr>
+            <th>09.15-09.55</th>
+            <td>4</td>
+            <td>Infor</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>09.55-10.35</th>
+            <td>5</td>
+            <td>Agama</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>10.35-11.15</th>
+            <td>6</td>
+            <td>Agama</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>11.15-11.55</th>
+            <td>7</td>
+            <td>Agama</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>11.55-12.30</th>
+            <td></td>
+            <th colspan="2" style="background-color: yellow;">Istirahat</th>
+        </tr>
+        <tr>
+            <th>12.30-13.10</th>
+            <td>8</td>
+            <td>PKN</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>13.10-13.50</th>
+            <td>9</td>
+            <td>PKN</td>
+            <td>Produktif</td>
+        </tr>
+        <tr>
+            <th>13.50-14.30</th>
+            <td>10</td>
+            <td>B.Inggris</td>
+            <td>Produktif</td>        
+        </tr>
+        <tr>
+            <th>14.30-15.10</th>
+            <td>11</td>
+            <td>B.Inggris</td>
+            <td>Produktif</td>
+        </tr>
+    </table>
+    <hr id="hr1">
+<table border="1">
+    <tr style="background-color: aquamarine;">
+        <th>Waktu</th>
+        <th>Jam</th>
+        <th>Jum'at</th>
+    </tr>
+    <tr>
+        <th>07.00-08.00</th>
+        <td></td>
+        <th style="background-color: pink;"><i>Jum'at Khusus</i></th>
+    </tr>
+    <tr>
+        <th>08.00-08.35</th>
+        <td>1</td>
+        <td>IPAS</td>
+    </tr>
+    <tr>
+        <th>08.35-09.10</th>
+        <td>2</td>
+        <td>IPAS</td>
+    </tr>
+    <tr>
+        <th>09.10-09.30</th>
+        <td></td>   
+        <th style="background-color: yellow;">Istirahat</th>
+    </tr>
+    <tr>
+        <th>09.30-10.00</th>
+        <td>3</td>
+        <td>B.Jawa</td>
+    </tr>
+    <tr>
+        <th>10.00-10.30</th>
+        <td>4</td>
+        <td>B.Jawa</td>
+    </tr>
+    <tr>
+        <th>10.30-11.00</th>
+        <td>5</td>
+        <td>S.Budaya</td>
+    </tr>
+    <tr>
+        <th>11.00-11.30</th>
+        <td>6</td>
+        <td>S.Budaya</td>
+    </tr>
+    <tr>
+        <th>11.30-12-40</th>
+        <td></td>
+        <th style="background-color: yellow;">Istirahat</th>
+    </tr>
+    <tr>
+        <th>12.40-13.20</th>
+        <td>7</td>
+        <td>B.Indo</td>
+    </tr>
+    <tr>
+        <th>13.20-14.00</th>
+        <td>8</td>
+        <td>B.Indo</td>
+    </tr>
+</table>
+</div>
+</body>
+</html>
